@@ -1,0 +1,123 @@
+/*Universal*/
+* {
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/*body*/
+body {
+    background-color: #F28095;
+    margin: 0px;
+}
+
+/*header and footer*/
+header, footer {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+/*header only*/
+header {
+    height: 150px;
+    background-color: #141a1a;
+    background-image: url(bowl.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFF;
+}
+
+/*heading 1*/
+h1 {
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+
+/*div with grid container*/
+#grid-container {
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
+
+/*nav*/
+nav {
+    width: 150px;
+    margin-top: 16px;
+}
+
+/*list items in nav*/
+nav li {
+    list-style-type: none;
+    text-align: center;
+}
+
+/*links in nav*/
+nav a {
+    display: block;
+    padding: 16px;
+    margin: 8px auto;
+    background-color: #e0e5de;
+    color: #141a1a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*first nav li*/
+.current-page {
+    background-color: #f28095;
+}
+
+/*nav when hover*/
+nav a:hover {
+    background-color: #f28095;
+}
+
+/*main*/
+main {
+    color: #542c1b;
+    padding-bottom: 16px;
+}
+
+/*image in main*/
+main img {
+    float: left;
+}
+
+/*paragraph and list in main*/
+main p {
+    display: inline-block;
+    width: 50%;
+}
+
+main ul {
+    display: inline-block;
+    width: 50%;
+}
+
+/*paragraph in main*/
+main p {
+    margin-left: 32px;
+}
+
+/*ul in main*/
+main ul {
+    margin-left: 16px;
+}
+
+/*address*/
+address {
+    clear: both;
+    padding-top: 16px;
+}
+
+/*footer*/
+footer {
+    font-style: italic;
+    text-align: center;
+    background-color: #afaeb4;
+    padding: 8px 0px;
+}
